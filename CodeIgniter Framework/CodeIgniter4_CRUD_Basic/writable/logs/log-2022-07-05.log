@@ -1,0 +1,183 @@
+CRITICAL - 2022-07-05 00:42:55 --> Class "App\Controllers\DataModel" not found
+in APPPATH\Controllers\DataController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:44:04 --> Class "App\Controllers\DataModel" not found
+in APPPATH\Controllers\DataController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:44:05 --> Class "App\Controllers\DataModel" not found
+in APPPATH\Controllers\DataController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:44:05 --> Class "App\Controllers\DataModel" not found
+in APPPATH\Controllers\DataController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:44:05 --> Class "App\Controllers\DataModel" not found
+in APPPATH\Controllers\DataController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:45:53 --> Class "App\Controllers\DataModel" not found
+in APPPATH\Controllers\DataController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:45:53 --> Class "App\Controllers\DataModel" not found
+in APPPATH\Controllers\DataController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:45:54 --> Class "App\Controllers\DataModel" not found
+in APPPATH\Controllers\DataController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:46:17 --> Class "App\Controllers\DataModel" not found
+in APPPATH\Controllers\DataController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:46:38 --> Class "App\Models\Model" not found
+in APPPATH\Models\DataModel.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DataModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DataModel')
+ 4 APPPATH\Controllers\DataController.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DataModel')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:46:39 --> Class "App\Models\Model" not found
+in APPPATH\Models\DataModel.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DataModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DataModel')
+ 4 APPPATH\Controllers\DataController.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DataModel')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:46:39 --> Class "App\Models\Model" not found
+in APPPATH\Models\DataModel.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DataModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DataModel')
+ 4 APPPATH\Controllers\DataController.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DataModel')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:47:28 --> Class "App\Models\Model" not found
+in APPPATH\Models\DataModel.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DataModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DataModel')
+ 4 APPPATH\Controllers\DataController.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DataModel')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:47:28 --> Class "App\Models\Model" not found
+in APPPATH\Models\DataModel.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DataModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DataModel')
+ 4 APPPATH\Controllers\DataController.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DataModel')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:47:29 --> Class "App\Models\Model" not found
+in APPPATH\Models\DataModel.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DataModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DataModel')
+ 4 APPPATH\Controllers\DataController.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DataModel')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:47:29 --> Class "App\Models\Model" not found
+in APPPATH\Models\DataModel.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DataModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DataModel')
+ 4 APPPATH\Controllers\DataController.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DataModel')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:56:42 --> preg_match(): Compilation failed: \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number at offset 17
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: \\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number at offset 17', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^DataController\\getdata$#u', 'DataController/getdata', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('DataController/getdata')
+ 4 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('DataController/getdata')
+ 5 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 00:59:01 --> preg_match(): Compilation failed: \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number at offset 17
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: \\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number at offset 17', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^DataController\\getdata$#u', 'DataController/getdata', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('DataController/getdata')
+ 4 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('DataController/getdata')
+ 5 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:10:55 --> Allowed fields must be specified for model: App\Models\DataModel
+in SYSTEMPATH\BaseModel.php on line 1138.
+ 1 SYSTEMPATH\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\DataModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\DataController.php(22): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->getdata()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:16:21 --> Undefined variable $id
+in APPPATH\Views\Data\data1.php on line 21.
+ 1 APPPATH\Views\Data\data1.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\Data\\data1.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Data\\data1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Data\\data1', [], true)
+ 5 APPPATH\Controllers\DataController.php(11): view('Data\\data1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 02:28:32 --> Declaration of App\Models\DataModel::delete($id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\DataModel.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-05 02:29:26 --> Declaration of App\Models\DataModel::delete($id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\DataModel.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-05 02:50:59 --> Call to undefined function App\Controllers\getGet()
+in APPPATH\Controllers\DataController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->editData()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 02:51:34 --> Undefined variable $id
+in APPPATH\Controllers\DataController.php on line 46.
+ 1 APPPATH\Controllers\DataController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\DataController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DataController->editData()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
