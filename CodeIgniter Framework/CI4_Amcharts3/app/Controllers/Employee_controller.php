@@ -1,68 +1,72 @@
-<?php namespace App\Controllers;
+<?php
 
-	use CodeIgniter\Controller;
-	use App\Models\EmployeeData_model;
+namespace App\Controllers;
 
-	class Employee_controller extends Controller{
+use CodeIgniter\Controller;
+use App\Models\EmployeeData_model;
 
-		public function index(){
+class Employee_controller extends Controller
+{
 
-			$model = new EmployeeData_model();
-			$data['employee'] = $model->getEmployee();
+	public function index()
+	{
 
-			echo view('Employee_view.php', $data);
+		$model = new EmployeeData_model();
+		$data['employee'] = $model->getEmployee();
 
-		}/*Close: index()*/
-
-
-		/*Function to add Employee data to database on form submit*/
-		public function addEmployee(){
-
-			$model = new EmployeeData_model();
-
-			$empData = array();
-			if($this->request->getMethod() == "get"){
-				/*Note: at left its database column name | and at right side its form fields name, from which data is fetched*/
-				$empData['name'] = $this->request->getGet('name');
-				$empData['salary'] = $this->request->getGet('salary');
-			}
-
-			$model->save($empData);
-
-			return redirect()->route('Employee_controller');
-		}/*Close: addEmployee()*/
+		echo view('Employee_view.php', $data);
+	}/*Close: index()*/
 
 
-		/*Function to edit employee details*/
-		public function editEmployee(){
-			
-			$model = new EmployeeData_model();
+	/*Function to add Employee data to database on form submit*/
+	public function addEmployee()
+	{
 
-			$id = $this->request->getGet('id');
+		$model = new EmployeeData_model();
 
-			$empData = array();
+		$empData = array();
+		if ($this->request->getMethod() == "get") {
+			/*Note: at left its database column name | and at right side its form fields name, from which data is fetched*/
 			$empData['name'] = $this->request->getGet('name');
 			$empData['salary'] = $this->request->getGet('salary');
+		}
 
-			$model->updateEmployee($id, $empData);
+		$model->save($empData);
 
-			return redirect()->to('Employee_controller/');
-		}/*Close: editEmployee()*/
-
-
-		/*Function to delete employee with id passed in parameter*/
-		public function deleteAction($id){
-			
-			$model = new EmployeeData_model();
-			$model->deleteEmployee($id);
-
-			return redirect()->route('Employee_controller');
-		}/*close: deleteAction()*/
+		return redirect()->route('Employee_controller');
+	}/*Close: addEmployee()*/
 
 
-		//edit()
-		//editAction($id)
-	
-	}/*Close: class AmchartsThreeCustom*/
+	/*Function to edit employee details*/
+	public function editEmployee()
+	{
 
-?>
+		$model = new EmployeeData_model();
+
+		$id = $this->request->getGet('id');
+
+		$empData = array();
+		$empData['name'] = $this->request->getGet('name');
+		$empData['salary'] = $this->request->getGet('salary');
+
+		$model->updateEmployee($id, $empData);
+
+		return redirect()->to('Employee_controller/');
+	}/*Close: editEmployee()*/
+
+
+	/*Function to delete employee with id passed in parameter*/
+	public function deleteAction($id)
+	{
+
+		$model = new EmployeeData_model();
+		$model->deleteEmployee($id);
+
+		return redirect()->route('Employee_controller');
+	}/*close: deleteAction()*/
+
+
+	//edit()
+	//editAction($id)
+
+}/*Close: class AmchartsThreeCustom*/

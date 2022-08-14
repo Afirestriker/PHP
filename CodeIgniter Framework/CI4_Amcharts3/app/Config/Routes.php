@@ -38,7 +38,9 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 
 //Manual
-$routes->get('AmchartsThree', 'AmchartsThree::index');
+$routes->get('AmchartsThree', 'AmchartsThree::index');  //called -> view/amchartsThree_basic.php
+
+// Here we are designing amcharts3 using real data from database
 $routes->get('Employee_controller', 'Employee_controller::index');
 $routes->get('Employee_controller/addEmployee', 'Employee_controller::addEmployee');
 $routes->get('Employee_controller/editEmployee', 'Employee_controller::editEmployee');
