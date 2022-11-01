@@ -1,7 +1,7 @@
 > ### CodeIgniter (V3, V4) is an PHP framework
 > The above files & Folderts contains the project from basic CVM connectivity to CRUD operation with Charts and Table created using Amcharts and Tabulator plugins.
 
-NOTE: You can create CodeIgniter project using composer as well by following the following steps
+NOTE: You can create CodeIgniter project using composer as well by following the steps below
 1. Download & Install composer
 2. Open Command Prompt
 3. Inside command promt redirect to xampp/htdocs folder (if you are using Xampp server).
